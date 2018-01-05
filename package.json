@@ -1,0 +1,47 @@
+{
+  "name": "fakedata-generator",
+  "homepage": "https://halumz.github.io/fakedata-generator",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halumz/fakedata-generator.git"
+  },
+  "keywords": [
+    "react",
+    "faker",
+    "fake-genarator",
+    "fake-data-genarator"
+  ],
+  "dependencies": {
+    "clone": "^2.1.1",
+    "faker": "^4.1.0",
+    "gh-pages": "^1.1.0",
+    "history": "^4.7.2",
+    "immutable": "^3.8.2",
+    "js2xmlparser": "^3.0.0",
+    "marked": "^0.3.9",
+    "rc-select": "^7.5.0",
+    "react": "^16.1.1",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-dom": "^16.1.1",
+    "react-file-download": "^0.3.5",
+    "react-markdown": "^3.1.4",
+    "react-modal": "^3.1.10",
+    "react-portal-tooltip": "^2.3.0",
+    "react-redux": "^5.0.6",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.0.17",
+    "react-table": "^6.7.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
